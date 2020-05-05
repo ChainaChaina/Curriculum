@@ -1,24 +1,157 @@
-
-
-.tab{
-background-color: rgb(41, 140, 72);
-margin: 0;  
-align-content: center;
-text-align: center;
-min-height: 100vh;
+.curves {
+    background: #2D3047;
+    color: #FFF;
+    text-align: center;
 }
 
-.perfil{
-    border-radius: 50%;
-   border-style: solid;
-   border-width: 4px;
+.curves1 {
+    background: #93B7BE;
+    color: #FFF;
+    text-align: center;
 }
-.nome{
-    font-size: 40px;
-    margin-top: 40%;
 
+.curves svg {
+    display: block;
 }
-.Ctext{
-    margin-top: 5%;
-    font-size: 35px;
+
+.curves1 svg {
+    display: block;
+}
+
+.bigfont {
+    font-size: 8rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bigfontred {
+    color: rgb(15, 201, 139);
+    font-size: 8rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sub {
+    font-size: 5rem;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+    max-height: 100%;
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    color: #2D3047;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 0rem;
+}
+
+.dices {
+    max-width: 10rem;
+    margin-top: 0rem;
+}
+
+.flex1 {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.flex2 {
+    align-content: center;
+    text-align: center;
+}
+
+.item1 {
+    margin-left: 25%;
+    color: #2D3047;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.item2 {
+    color: #2D3047;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrap {
+    margin-top: 10rem;
+}
+
+.end1 svg {
+    display: block;
+}
+
+body {
+    margin: 0rem;
+    background-color: #93B7BE;
+    height: 100rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 700px) {
+    .bigfont {
+        font-size: 2rem;
+        margin: 0rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .bigfontred {
+        color: rgb(15, 201, 139);
+        font-size: 2rem;
+        margin: 0rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .sub {
+        font-size: 1rem;
+        margin: 0rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .wrapper {
+        max-height: 100%;
+    }
+    .info {
+        position: relative;
+        text-align: center;
+        color: #2D3047;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 0rem;
+    }
+    .dices {
+        max-width: 8rem;
+        margin-top: 0rem;
+    }
+    .flex1 {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .flex2 {
+        align-content: center;
+        text-align: center;
+    }
+    .item1 {
+        margin-left: 15%;
+        color: #2D3047;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .item2 {
+        color: #2D3047;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .wrap {
+        margin-top: 5rem;
+    }
+    .end1 svg {
+        display: block;
+    }
+    body {
+        margin: 0rem;
+        background-color: #93B7BE;
+        height: 18rem;
+    }
 }
