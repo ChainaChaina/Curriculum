@@ -87,7 +87,7 @@
 
 body {
     margin: 0rem;
-    background-color: #93B7BE;
+    background-color: #93B7BE !important;
     height: 100rem;
 }
 
